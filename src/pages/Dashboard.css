@@ -1,0 +1,142 @@
+/* Dashboard Styles */
+.hover-shadow {
+  transition: all 0.3s ease;
+}
+
+.hover-shadow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.card {
+  transition: all 0.3s ease;
+}
+
+.card-header {
+  padding: 1rem 1.5rem;
+}
+
+.activity-feed {
+  padding: 0.5rem 0;
+}
+
+.activity-item {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.activity-item:last-child {
+  border-bottom: none;
+}
+
+.activity-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.activity-content {
+  flex: 1;
+}
+
+.activity-content p {
+  font-size: 0.95rem;
+  color: #2c3e50;
+}
+
+.activity-content small {
+  font-size: 0.8rem;
+}
+
+/* Chart customizations */
+.chart-container {
+  position: relative;
+  margin: auto;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Form select customization */
+.form-select {
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.form-select:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Card title styles */
+.card-title {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* Stats card numbers */
+.card h3 {
+  font-weight: 700;
+  color: #2c3e50;
+  font-size: 1.75rem;
+}
+
+/* Icon backgrounds */
+.bg-opacity-10 {
+  opacity: 0.1;
+}
+
+/* Dropdown menu customization */
+.dropdown-menu {
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.dropdown-item {
+  padding: 0.5rem 1.5rem;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .activity-icon {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .activity-content p {
+    font-size: 0.9rem;
+  }
+} 
